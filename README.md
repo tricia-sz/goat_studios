@@ -1,4 +1,4 @@
-![image](https://github.com/tricia-sz/cabrita-studios/assets/94939271/bc99c1bc-bb2d-484e-a104-99555a138d13)
+![image](https://github.com/tricia-sz/cabrita-studios/assets/94939271/a918b663-ae58-4b41-8649-f0c5f5e324f1)
 ![image](https://github.com/tricia-sz/cabrita-studios/assets/94939271/3545f104-f241-4ce5-9445-fa2731f03c34)
 
 
