@@ -1,7 +1,7 @@
 ## Getting Started
 
 - Clone the repo
-- Rename file `renename-env.local` for `.env.local`
+- Create file `.env.local` and insert: `NEXT_API_URL='https://sujeitoprogramador.com'`
 - Open terminal, run:
 `
 npm run dev
