@@ -9,7 +9,7 @@ interface GameCardProps {
 export function GameCard({ data }: GameCardProps) {
   return (
     <Link href={`/game/${data.id}`}>
-      <section className='w-full bg-slate-200 rounded-lg p-4 mb-5'>
+      <section className='w-full bg-slate-800 rounded-lg p-4 mb-5 shadow-lg  s '>
         <div className='relative w-full h-56 hover:scale-105 transition-all duration-300'>
           <Image
             className='rouded-lg object-cover'
@@ -18,13 +18,14 @@ export function GameCard({ data }: GameCardProps) {
             quality={100}
             fill={true}
             sizes='(max-width: 768px) 100vw, (max-width: 1200px) 44vw'
+            style={{ borderRadius: '2%' }}
           />
         </div>
         <div className='flex items-center mt-4 justify-between'>
-          <p className='text-sm font-bold px-2 text-slate-600 text-ellipsis truncate whitespace-nowrap overflow-hidden'>
+          <p className='text-sm font-bold px-2 text-slate-300 text-ellipsis truncate whitespace-nowrap overflow-hidden'>
             {data.title}
           </p>
-          <BiRightArrowCircle size={24} color='#475062' />
+          <BiRightArrowCircle size={24} color='#dcf3ff' />
         </div>
       </section>
     </Link>
