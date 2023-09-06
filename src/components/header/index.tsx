@@ -5,7 +5,7 @@ import { GiGoat } from 'react-icons/gi';
 
 export function Header() {
   return (
-    <header className='w-full h-36  bg-slate-900 text-slate-300 px-2'>
+    <header className='w-full h-36  bg-slate-900 text-slate-300 px-2 '>
       <div className='max-w-screen-xl  pt-8 mx-auto flex justify-center items-center h-28 sm:justify-between'>
         <nav className='flex justify-center items-center gap-20 '>
           <Link href='/'>
