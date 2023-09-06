@@ -2,7 +2,6 @@ import logoImage from 'public/cabrita-logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { GiGoat } from 'react-icons/gi';
-import { Input } from '@/components/input/';
 
 export function Header() {
   return (
