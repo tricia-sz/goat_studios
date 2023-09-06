@@ -16,10 +16,10 @@ export function Input() {
   return (
     <form
       onSubmit={handleSearch}
-      className='w-full bg-slate-800 my-7 gap-2 items-center justify-between rounded-lg p-2 mt-12'
+      className='w-full bg-slate-800 my-0 gap-2  items-center justify-between rounded-lg p-1 mt-10'
     >
       <input
-        className='bg-slate-500 outline-none w-11/12 my-4 flex-center  gap-2 items-center justify-between rounded-lg p-2'
+        className='bg-slate-700 outline-none w-10/10 my-1 flex-center items-center justify-center rounded-lg p-2'
         type='text'
         placeholder='Procurando algo? '
         value={input}

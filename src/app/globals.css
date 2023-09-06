@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.body {
   background-color: '#0F172A';
 }
 @media (prefers-color-scheme: dark) {

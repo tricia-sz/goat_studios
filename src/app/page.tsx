@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import { Input } from '@/components/Input';
-import { GameCard } from '@/components/GameCard';
+import { GameCard } from '@/components/gameCard';
 import { BiBorderRadius } from 'react-icons/bi';
 
 async function getCabritasStudios() {
@@ -37,8 +37,8 @@ export default async function Home() {
   return (
     <main className='w-full'>
       <Container>
-        <h1 className='text-center font-bold text-4xl mt-8 mb-5 text-sky-600'>
-          Cabrita's Games recomenda
+        <h1 className='text-left font-bold text-3xl mt-20 mb-10 text-sky-100'>
+          Games Recomendados
         </h1>
         <Link href={`/game/${cabritaStudio.id}`}>
           <section className='w-full bg-slate-950 rounded-lgborder-indigo-500/100'>
@@ -55,15 +55,15 @@ export default async function Home() {
                 priority={true}
                 quality={100}
                 fill={true}
-                className='max-h-96 object-cover rounded-lg opacity-50   hover:opacity-100 transition-all duration-300 box shadow-lg shadow-sky-600'
+                className='max-h-96 object-cover rounded-lg opacity-50   hover:opacity-100 transition-all duration-300 box shadow-lg border-b border-sky-500 shadow-sky-600'
                 sizes='(max-width: 768px) 100vw, (max-width: 1200px) 44vw'
               />
             </div>
           </section>
         </Link>
-        <Input />
-        <h2 className='text-center font-bold text-4xl mt-8 mb-8 '>
-          Os mais jogados da semana
+
+        <h2 className='text-left font-bold text-3xl mt-20 mb-20  text-sky-100'>
+          Os Mais Jogados da Semana
         </h2>
         <section className='grid gap-7 ms:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
           {data.map((item) => (
