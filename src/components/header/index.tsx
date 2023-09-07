@@ -8,7 +8,7 @@ import { Input } from '../Input';
 
 export function Header() {
   return (
-    <header className='w-full h-36  bg-slate-900 text-slate-300 px-2 shadow-lg border-b border-sky-500'>
+    <header className='w-full h-36 pt-2  bg-slate-900 text-slate-400 px-2 border-b  border-sky-400 shadow-lg'>
       <div className='max-w-screen-xl  pt-8 mx-auto flex justify-center items-center h-28 sm:justify-center '>
         <nav className='flex justify-center items-center gap-20 '>
           <Link href='/'>
@@ -17,6 +17,8 @@ export function Header() {
               src={logoImage}
               quality={100}
               priority={true}
+              width={65}
+              height={65}
               className='w-full'
             />
           </Link>
@@ -24,15 +26,15 @@ export function Header() {
             <Link href='/films' className=''>
               Games
             </Link>
-            <BiJoystick color='#1abffb' size={28} />
+            <BiJoystick color='#838e9c' size={28} />
           </div>
           <div className='flex justify-center'>
             <Link href='/films'>Filmes</Link>
-            <BiMoviePlay color='#1abffb' size={28} />
+            <BiMoviePlay color='#838e9c' size={28} />
           </div>
           <div className='flex justify-center'>
             <Link href='/series'>Séries</Link>
-            <TbMovie color='#1abffb' size={28} />
+            <TbMovie color='#838e9c' size={28} />
           </div>
         </nav>
       </div>
