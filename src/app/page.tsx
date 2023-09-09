@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import { Input } from '@/components/Input';
 import { GameCard } from '@/components/gameCard';
-import { BiBorderRadius } from 'react-icons/bi';
 
 async function getCabritasStudios() {
   try {
