@@ -1,7 +1,7 @@
 import logoImage from 'public/cabrita-logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BiJoystick } from 'react-icons/bi';
+import { BiJoystick, BiUser } from 'react-icons/bi';
 import { BiMoviePlay } from 'react-icons/bi';
 import { TbMovie } from 'react-icons/tb';
 import { Input } from '../Input';
@@ -35,6 +35,10 @@ export function Header() {
           <div className='flex justify-center'>
             <Link href='/series'>Séries</Link>
             <TbMovie color='#838e9c' size={28} />
+          </div>
+          <div className='flex justify-center'>
+            <Link href='/profile'>Perfil</Link>
+            <BiUser color='#838e9c' size={28} />
           </div>
         </nav>
       </div>
