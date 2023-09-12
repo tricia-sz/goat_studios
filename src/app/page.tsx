@@ -1,10 +1,10 @@
-import { Container } from '@/components/container';
+import { Container } from '@/components/Container';
 import { GameProps } from '@/utils/types/game';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import { Input } from '@/components/Input';
-import { GameCard } from '@/components/gameCard';
+import { GameCard } from '@/components/GameCard';
 
 async function getCabritasStudios() {
   try {

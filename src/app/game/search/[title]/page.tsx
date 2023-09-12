@@ -1,6 +1,6 @@
-import { GameCard } from '@/components/gameCard';
+import { GameCard } from '@/components/GameCard';
 import { Input } from '@/components/Input';
-import { Container } from '@/components/container';
+import { Container } from '@/components/Container';
 import { GameProps } from '@/utils/types/game';
 
 async function getData(title: string) {
