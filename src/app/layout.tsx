@@ -1,8 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { Header } from '@/components/header';
-import { Footer } from '@/components/footer';
+import { Footer } from '@/components/Footer';
+import { Sidebar } from '@/components/Sidebar';
+import { Header } from '@/components/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -33,9 +34,13 @@ export default function RootLayout({
     <html lang='pt-br' className='bg-slate-950'>
       <link rel='icon' href='/favicon.png' />
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <div className="min-h-screen ">
+          <Header />
+          <main className='px-4 pb-12 pt-8'>
+          {children}
+          </main>
+         <Footer/>
+        </div>
       </body>
     </html>
   );

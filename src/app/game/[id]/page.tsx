@@ -1,9 +1,9 @@
-import { Container } from '@/components/container';
+import { Container } from '@/components/Container';
 import { redirect } from 'next/navigation';
 import Image from 'next/image';
 import { Label } from './components/label';
 import { GameProps } from '@/utils/types/game';
-import { GameCard } from '@/components/gameCard';
+import { GameCard } from '@/components/GameCard';
 import { Metadata } from 'next';
 
 interface PropsParams {
