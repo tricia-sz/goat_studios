@@ -2,7 +2,6 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Footer } from '@/components/Footer';
-import { Sidebar } from '@/components/Sidebar';
 import { Header } from '@/components/Header';
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,7 +33,7 @@ export default function RootLayout({
     <html lang='pt-br' className='bg-slate-950'>
       <link rel='icon' href='/favicon.png' />
       <body className={inter.className}>
-        <div className="min-h-screen ">
+        <div className="min-h-screen">
           <Header />
           <main className='px-4 pb-12 pt-8'>
           {children}
