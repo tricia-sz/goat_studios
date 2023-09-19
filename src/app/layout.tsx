@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
+import { WaveBottom } from '@/components/Footer/components/WaveBottom';
+import { WaveTop } from '@/components/Header/components/WaveTop';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -34,7 +36,12 @@ export default function RootLayout({
       <link rel='icon' href='/favicon.png' />
       <body className={inter.className}>
         <div className="min-h-screen">
-          <Header />
+            <Header />
+          <div className='w-full flex  relative '>
+            <WaveTop />
+            {/* <WaveTop /> */}
+          </div>
+
           <main className='px-4 pb-12 pt-8'>
           {children}
           </main>
