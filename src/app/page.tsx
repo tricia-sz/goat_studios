@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import { Input } from '@/components/Input';
 import { GameCard } from '@/components/GameCard';
-import { CabritaLogoFooter } from '@/components/Footer/components/CabritaLogoFooter';
 
 async function getCabritasStudios() {
   try {

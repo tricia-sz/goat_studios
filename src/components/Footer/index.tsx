@@ -1,9 +1,6 @@
-import logoImage from 'public/cabrita-logo.svg';
-import Image from 'next/image';
 import Link from 'next/link';
 import { AiFillGithub } from 'react-icons/ai';
 import { WaveBottom } from './components/WaveBottom';
-import { WaveTop } from '../Header/components/WaveTop';
 import { CabritaLogoFooter } from './components/CabritaLogoFooter';
 
 export function Footer() {
