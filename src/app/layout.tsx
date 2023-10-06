@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='pt-br' className='bg-slate-950'>
+    <html lang='pt-br' className='bg-sky-200 text-slate-900'>
       <link rel='icon' href='/favicon.png' />
       <body className={inter.className}>
         <div className="min-h-screen">

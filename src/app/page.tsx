@@ -53,14 +53,14 @@ export default async function Home() {
                 priority={true}
                 quality={100}
                 fill={true}
-                className='max-h-96 object-cover rounded-lg opacity-50   hover:opacity-100 transition-all duration-300 box shadow-lg shadow-sky-700/50 '
+                className='max-h-96 object-cover rounded-lg hover:opacity-100 transition-all duration-300 box shadow-lg shadow-sky-700/50 '
                 sizes='(max-width: 768px) 100vw, (max-width: 1200px) 44vw'
               />
             </div>
           </section>
         </Link>
 
-        <h2 className='text-left font-bold text-4xl mt-20 mb-20  text-slate-400'>
+        <h2 className='text-left font-bold text-4xl mt-20 mb-20  text-slate-900'>
           Os Mais Jogados da Semana
         </h2>
         <section className='bg-slate-950 grid gap-7 ms:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
