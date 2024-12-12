@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { AiFillGithub } from 'react-icons/ai';
-import { WaveBottom } from './components/WaveBottom';
 import { CabritaLogoFooter } from './components/CabritaLogoFooter';
 
 export function Footer() {
@@ -9,7 +8,6 @@ export function Footer() {
       <div className='flex justify-center '>
         <CabritaLogoFooter />
       </div>
-      <WaveBottom />
       <footer className='w-full h-36 bg-slate-900  text-slate-500 shadow-lg shadow-blue-600'>
       <div className='max-w-screen-xl  pt-8 mx-auto flex  justify-center items-center  h-28 sm:justify-center'>
         <AiFillGithub color='#838e9c' size={40} />
