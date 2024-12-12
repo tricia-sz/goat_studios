@@ -105,25 +105,25 @@ export default async function GameDetails({
       </div>
 
       <Container>
-        <h1 className='font-bold text-xl text-white my-4'>{data.title}</h1>
-        <p className='font-bold text-lg mt-7 mb-2 text-white my-4'>
+        <h1 className='font-bold text-xl text-sky-950 my-4'>{data.title}</h1>
+        <p className='font-bold text-lg mt-7 mb-2 text-sky-950 my-4'>
           {data.description}
         </p>
 
-        <h2 className='font-bold text-lg mt-7 mb-2 text-white'>Plataforma</h2>
-        <div className='flex gap-2 flex-wrap text-white'>
+        <h2 className='font-bold text-lg mt-7 mb-2 text-sky-950'>Plataforma</h2>
+        <div className='flex gap-2 flex-wrap text-sky-950'>
           {data.platforms.map((item: any) => (
             <Label name={item} key={item} />
           ))}
         </div>
 
-        <h2 className='font-bold text-lg mt-7 mb-2 text-white'>Categorias</h2>
-        <div className='flex gap-2 flex-wrap text-white'>
+        <h2 className='font-bold text-lg mt-7 mb-2 text-sky-950'>Categorias</h2>
+        <div className='flex gap-2 flex-wrap text-sky-950'>
           {data.categories.map((item: any) => (
             <Label name={item} key={item} />
           ))}
         </div>
-        <h2 className='font-bold text-lg mt-7 mb-2 text-white'>
+        <h2 className='font-bold text-lg mt-7 mb-2 text-sky-950'>
           Jogo recomendado
         </h2>
         <div className='flex'>
